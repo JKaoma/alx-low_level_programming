@@ -2,13 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
+ *main - Entry point
  *
- * Description: Prints a number and it's last digit along with whether its 
- * last digit is 0, greater than 5, or less than 6 and not 0.
- * Return: 0
+ *Return: Always 0 (Success/correct)
  */
 int main(void)
+
 {
 int n;
 
@@ -27,7 +26,7 @@ printf("Last digit of %i is %i and is 0\n", n, n % 10);
 
 else
 {
-printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
+printf("Last digit of %i and is less than 6 and not 0\n", n, n % 10);
 }
 
 return (0);
