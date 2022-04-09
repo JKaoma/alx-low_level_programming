@@ -4,12 +4,12 @@
  *
  *Return: Always 0 (Success/correct)
  */
-int main(voi)
+int main(void)
 
 {
 char alphabet;
 
-for (alphabet = 122 ; alpahbet >= 97; alphabet--)
+for (alphabet = 122 ; alphabet >= 97; alphabet--)
 {
 putchar(alphabet);
 }
