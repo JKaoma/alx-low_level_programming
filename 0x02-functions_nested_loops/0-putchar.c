@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * main - Entry point
- *
- * Return: Nothing, return void
+ * 
+ * Return: this program returns zero
  */
-
 int main(void)
 {
 _putchar('_');
