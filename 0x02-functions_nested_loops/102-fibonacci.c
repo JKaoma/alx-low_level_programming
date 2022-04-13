@@ -16,7 +16,7 @@ sum = fib1 + fib2;
 printf("%lu", sum);
 
 fib1 = fib2;
-fib1 = sum;
+fib2 = sum;
 
 if (count == 49)
 printf("\n");
